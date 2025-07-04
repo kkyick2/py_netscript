@@ -41,8 +41,6 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--out_path", help="output path of the output html", default="diff_report.html")
     args = parser.parse_args()
 
-    print(args)
-
     arg1 = args.before_path
     arg2 = args.after_path
     arg3 = args.html_title
