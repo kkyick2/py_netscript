@@ -3,8 +3,11 @@
 output
 outputcmd
 outputparse
+outputconfparse
+outputconfparse_*
 device_empf_*.csv
 device_*.csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

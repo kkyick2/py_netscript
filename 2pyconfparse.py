@@ -131,7 +131,7 @@ def parseCiscoIOS_Interface(parse, hostname):
             elif line.startswith('vrf forwarding') | line.startswith('ip vrf forwarding') | line.startswith('vrf member') :
                 line2 = re.split('vrf forwarding ', line)
                 line2 = re.split('vrf member ', line)
-                row['vrf'] = line2[1]
+                row['vrf'] = line2
 
             # ip helper-address
             # multiple match, put in list
