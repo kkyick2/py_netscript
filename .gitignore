@@ -3,6 +3,7 @@
 output
 outputcmd
 outputparse
+outputtextfsm
 outputconfparse
 outputconfparse_*
 device_empf_*.csv

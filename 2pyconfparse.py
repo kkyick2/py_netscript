@@ -1,6 +1,6 @@
 import glob, os, re, argparse
 import pandas as pd
-from ciscoconfparse import CiscoConfParse
+from ciscoconfparse2 import CiscoConfParse
 version = '20240318'
 
 def mkdir(path):
